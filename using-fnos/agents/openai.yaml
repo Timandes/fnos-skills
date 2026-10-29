@@ -1,6 +1,6 @@
 interface:
   display_name: "NAS 与飞牛 fnOS"
-  short_description: "NAS 与飞牛 fnOS 操作：优先发现专用 CLI，按目标服务器验证连接并发起授权"
-  default_prompt: "使用 $using-fnos 检查目标 NAS 的工具、连接和授权，然后完成我的操作。"
+  short_description: "NAS 与飞牛 fnOS 操作：检查目标版本与认证能力，选择兼容登录"
+  default_prompt: "使用 $using-fnos 检查目标 NAS 的工具、版本与认证能力，选择兼容的登录方式，然后完成我的操作。"
 policy:
   allow_implicit_invocation: true
