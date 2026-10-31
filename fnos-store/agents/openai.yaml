@@ -1,0 +1,6 @@
+interface:
+  display_name: "飞牛磁盘与存储"
+  short_description: "飞牛磁盘、SSD、SMART、存储空间与卷的查询、分析和管理"
+  default_prompt: "使用 $fnos-store 按专用 CLI 流程检查目标飞牛 NAS 的磁盘与存储状态，并说明健康、容量、冗余及证据限制。"
+policy:
+  allow_implicit_invocation: true
